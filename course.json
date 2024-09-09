@@ -1,0 +1,62 @@
+[
+  {
+    "courseId": "C101",
+    "name": "Introduction to Web Development",
+    "instructor": "Dr John",
+    "duration": "10 hours",
+    "rating": "4.5",
+    "category": "Web Development",
+    "price": "$50",
+    "enrolled": "2500"
+  },
+  {
+    "courseId": "C102",
+    "name": "Python Programming",
+    "instructor": "Dr Jebin",
+    "duration": "10 hours",
+    "rating": "4",
+    "category": "Python",
+    "price": "$80",
+    "enrolled": "1500"
+  },
+  {
+    "courseId": "C103",
+    "name": "C Programming",
+    "instructor": "Dr Sunita",
+    "duration": "10 hours",
+    "rating": "4.6",
+    "category": "C",
+    "price": "$60",
+    "enrolled": "2600"
+  },
+  {
+    "courseId": "C104",
+    "name": "Java Programming",
+    "instructor": "Dr Hussain",
+    "duration": "10 hours",
+    "rating": "4.8",
+    "category": "Java",
+    "price": "$100",
+    "enrolled": "3000"
+  },
+  {
+    "courseId": "C105",
+    "name": "Introduction to Machine Learning",
+    "instructor": "Dr Prakash",
+    "duration": "20 hours",
+    "rating": "4.8",
+    "category": "Machine Learning",
+    "price": "$150",
+    "enrolled": "2000"
+  },
+  {
+    "courseId": "C106",
+    "name": "Android App Development",
+    "instructor": "Dr Steve",
+    "duration": "15 hours",
+    "rating": "4.9",
+    "category": "Android",
+    "price": "$200",
+    "enrolled": "1000"
+  }
+]
