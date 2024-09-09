@@ -9,7 +9,20 @@ const courses = [
   { courseId: 'C105', name: 'Introduction to Machine Learning', instructor: 'Dr Prakash', duration: '20 hours', rating: '4.8', category: 'Machine Learning', price: '$150', enrolled: '2000' },
   { courseId: 'C106', name: 'Android App Development', instructor: 'Dr Steve', duration: '15 hours', rating: '4.9', category: 'Android', price: '$200', enrolled: '1000' }
 ];
-
+fetch('https://github.com/ByteBardDev/OnlineCourses_CIA-II/blob/main/course.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return course.json();
+  })
+  .then(data => {
+    console.log(data);
+    // You can now use the data as needed
+  })
+  .catch(error => {
+    console.error('There was a problem with the fetch operation:', error);
+  });
 function displayCourses(page) {
   const courseList = document.getElementById('course-list');
   courseList.innerHTML = '';
